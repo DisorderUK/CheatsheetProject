@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: gainsboro;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 2px;
+    text-align: left;
+    border-collapse: separate;
+    border: 2px solid darkorchid;
+    width: 650px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    background-color: plum;
+    text-align: center;
+}
+
+td {
+    border-top: 1px solid darkorchid;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
